@@ -15,10 +15,10 @@ func TestString(t *testing.T) {
 			name: "String Output Success",
 			want: "HELLO",
 		},
-		{
-			name: "String Output Failure",
-			want: "BONJOUR",
-		},
+		// {
+		// 	name: "String Output Failure",
+		// 	want: "BONJOUR",
+		// },
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
