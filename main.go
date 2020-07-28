@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/aplombomb/jdp/pkg/boop"
+)
 
 func main() {
-	fmt.Println("Success!")
+	fmt.Println(boop.SayHello())
+	fmt.Println(boop.SayMeep())
 }
