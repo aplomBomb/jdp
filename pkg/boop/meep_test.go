@@ -11,10 +11,10 @@ func TestSayMeep(t *testing.T) {
 			name: "String Output Success",
 			want: "MEEP",
 		},
-		// {
-		// 	name: "String Ouput Failure",
-		// 	want: "MOOP",
-		// },
+		{
+			name: "String Ouput Failure",
+			want: "MOOP",
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
